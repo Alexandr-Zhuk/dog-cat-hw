@@ -1,0 +1,36 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .header{
+        min-height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+        color: blue;
+    }
+
+    .area{
+        width: 700px;
+        height: 700px;
+        border: 1px solid red;
+        border-radius: 10px;
+        position: relative;
+
+        .dog{
+            position: absolute;
+            width: 60px;
+            height: 64px;
+            left: 20px;
+            transition: all 1s ease;
+            z-index: 2;
+        }
+
+        .dog-house{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 200px;
+            top: 300px;
+        }
+    }
+}
